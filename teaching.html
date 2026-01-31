@@ -6,13 +6,12 @@
   <title>Teaching | Azadeh Naderi</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="brand">
-        <h1>Azadeh Naderi</h1>
-        <p class="subtitle">Teaching</p>
-      </div>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="logo" href="index.html">Azadeh Naderi</a>
+
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="cv.html">CV</a>
@@ -24,41 +23,85 @@
   </header>
 
   <main class="container">
-    <section class="card">
-      <h2>Teaching Experience</h2>
-  
-      <h3>Teaching Assistant — New Jersey Institute of Technology (NJIT)</h3>
-  
-      <div class="teaching-list">
-  
-        <div class="course">
-          <div class="course-title">Introduction to Generative AI (CS 474)</div>
-          <div class="course-terms">Fall 2024, Spring 2025, Fall 2025, Spring 2026</div>
+    <section class="section">
+      <h1 class="page-title">Teaching</h1>
+      <p class="page-subtitle">
+        Teaching Assistant — New Jersey Institute of Technology (NJIT)
+      </p>
+
+      <!-- QUICK STATS (optional but looks nice) -->
+      <div class="teach-stats">
+        <div class="stat">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Courses</div>
         </div>
-  
-        <div class="course">
-          <div class="course-title">Data Analytics (IS 665)</div>
-          <div class="course-terms">Fall 2023, Spring 2024, Fall 2024</div>
+        <div class="stat">
+          <div class="stat-num">2023–2026</div>
+          <div class="stat-label">Teaching Terms</div>
         </div>
-  
-        <div class="course">
-          <div class="course-title">Computer Systems and Networks (IT 420)</div>
-          <div class="course-terms">Summer 2025, Fall 2025, Spring 2026</div>
-        </div>
-  
-        <div class="course">
-          <div class="course-title">Advanced Information Systems (IS 465)</div>
-          <div class="course-terms">Spring 2025</div>
-        </div>
-  
-        <div class="course">
-          <div class="course-title">Usability & Measuring UX (IS 448)</div>
-          <div class="course-terms">Spring 2023, Spring 2025</div>
-        </div>
-  
       </div>
+
+      <!-- COURSE LIST -->
+      <div class="teach-block">
+        <div class="teach-header">
+          <h2>Courses Assisted</h2>
+          <span class="teach-note">Sorted by most recent term</span>
+        </div>
+
+        <div class="teach-table">
+          <div class="teach-row teach-row-head">
+            <div>Course</div>
+            <div>Terms</div>
+          </div>
+
+          <div class="teach-row">
+            <div class="course-name">Introduction to Generative AI <span class="course-code">(CS 474)</span></div>
+            <div class="course-terms">Fall 2024 • Spring 2025 • Fall 2025 • Spring 2026</div>
+          </div>
+
+          <div class="teach-row">
+            <div class="course-name">Computer Systems and Networks <span class="course-code">(IT 420)</span></div>
+            <div class="course-terms">Summer 2025 • Fall 2025 • Spring 2026</div>
+          </div>
+
+          <div class="teach-row">
+            <div class="course-name">Data Analytics <span class="course-code">(IS 665)</span></div>
+            <div class="course-terms">Fall 2023 • Spring 2024 • Fall 2024</div>
+          </div>
+
+          <div class="teach-row">
+            <div class="course-name">Advanced Information Systems <span class="course-code">(IS 465)</span></div>
+            <div class="course-terms">Spring 2025</div>
+          </div>
+
+          <div class="teach-row">
+            <div class="course-name">Usability & Measuring UX <span class="course-code">(IS 448)</span></div>
+            <div class="course-terms">Spring 2023 • Spring 2025</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OPTIONAL: RESPONSIBILITIES (adds structure) -->
+      <div class="teach-block">
+        <div class="teach-header">
+          <h2>Typical Responsibilities</h2>
+        </div>
+
+        <ul class="teach-bullets">
+          <li>Held office hours and supported students with assignments and projects.</li>
+          <li>Graded quizzes/assignments and provided feedback aligned with rubrics.</li>
+          <li>Assisted instructors with course logistics and learning support.</li>
+        </ul>
+      </div>
+
+      <footer class="footer">
+        <span>© <span id="y"></span> Azadeh Naderi</span>
+      </footer>
     </section>
   </main>
 
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

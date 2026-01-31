@@ -261,3 +261,30 @@ body{
   border-top: 1px solid var(--line);
   padding-top: 14px;
 }
+
+
+.teaching-list{
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.course{
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+}
+
+.course-title{
+  font-weight: 600;
+  color: var(--text);
+}
+
+.course-terms{
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--muted);
+}
+

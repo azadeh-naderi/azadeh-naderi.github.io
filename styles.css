@@ -1,27 +1,25 @@
 :root{
-  --bg: #eef2ff;
+  --bg: #f5f7fa;
   --panel: #ffffff;
-  --panel2: #f5f7ff;
-  --text: #111827;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --accent: #4f6bff;
-  --accent-soft: #e0e7ff;
-  --shadow: 0 12px 40px rgba(79,107,255,.12);
+  --panel2: #f8fafc;
+  --text: #0f172a;
+  --muted: #64748b;
+  --line: #e2e8f0;
+  --accent: #2563eb;
+  --shadow: 0 10px 30px rgba(2,6,23,.06);
   --radius: 18px;
 }
+
 
 
 
 *{ box-sizing: border-box; }
 body{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  background:
-    radial-gradient(900px 500px at 10% 10%, rgba(79,107,255,.15), transparent 60%),
-    radial-gradient(700px 500px at 90% 0%, rgba(99,102,241,.12), transparent 55%),
-    var(--bg);
+  background: var(--bg);
   color: var(--text);
 }
+
 
 
 
@@ -33,11 +31,12 @@ body{
 .topbar{
   position: sticky;
   top: 0;
-  background: rgba(255,255,255,.75);
-  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
   z-index: 20;
 }
+
 
 
 
@@ -151,11 +150,12 @@ body{
 }
 
 .btn.primary{
-  background: linear-gradient(135deg, var(--accent), #6d83ff);
+  background: var(--accent);
   border: none;
   color: white;
-  box-shadow: 0 6px 18px rgba(79,107,255,.35);
+  box-shadow: 0 6px 14px rgba(37,99,235,.25);
 }
+
 
 
 .social{

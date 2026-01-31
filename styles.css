@@ -477,3 +477,26 @@ a:hover{
   opacity: .85;
 }
 
+.edu-list{
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 18px;
+}
+
+.edu-list li{
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.muted{
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.interest-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+

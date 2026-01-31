@@ -403,3 +403,61 @@ body{
 }
 
 
+.pub-actions{
+  margin: 12px 0 18px;
+}
+
+.pub-list{
+  display: grid;
+  gap: 12px;
+}
+
+.pub-card{
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.pub-top{
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pub-title{
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.1px;
+}
+
+.pub-badge{
+  flex: 0 0 auto;
+  font-size: 13px;
+  color: var(--muted);
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.03);
+  border-radius: 999px;
+  padding: 6px 10px;
+  margin-top: 1px;
+}
+
+.pub-authors{
+  margin-top: 8px;
+  color: var(--text);
+  opacity: .9;
+}
+
+.pub-venue{
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.pub-meta{
+  margin-top: 10px;
+}
+
+

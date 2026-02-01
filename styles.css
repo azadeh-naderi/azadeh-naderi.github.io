@@ -4,7 +4,7 @@
   --panel2: #f8fafc;
   --text: #0f172a;
   --muted: #64748b;
-  --line: #e2e8f0;
+  --line: #cbd5e1;
   --accent: #2563eb;
   --shadow: 0 10px 30px rgba(2,6,23,.06);
   --radius: 18px;
@@ -200,10 +200,12 @@ body{
   letter-spacing: .2px;
 }
 
-.cards{
-  display:grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
+.card{
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(15,23,42,.05);
 }
 
 @media (min-width: 860px){

@@ -227,10 +227,12 @@ body{
   transform: translateY(-2px);
 }
 
-.card h3{
-  margin: 0 0 8px;
-  color: var(--text);
-  font-size: 16px;
+
+
+.card h3 {
+  font-size: 1.8rem;
+  margin-top: 32px;
+  margin-bottom: 14px;
 }
 
 .card p{

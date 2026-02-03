@@ -502,3 +502,59 @@ a:hover{
   margin-top: 8px;
 }
 
+/* CV Page - consistent styling */
+.cv-card .page-title {
+  margin: 0 0 12px;
+}
+
+.cv-card .cv-actions {
+  margin: 0 0 16px;
+}
+
+.cv-card .section-title {
+  font-size: 1.45rem;    /* section title size */
+  margin: 26px 0 12px;   /* consistent spacing above/below */
+}
+
+.cv-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.cv-item {
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08); /* works on dark */
+}
+
+.cv-item:last-child {
+  border-bottom: none;
+}
+
+.cv-item-head {
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.cv-item-sub {
+  opacity: 0.85;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.cv-bullets {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cv-bullets li {
+  margin: 6px 0;         /* consistent row spacing */
+  line-height: 1.45;
+}
+
+/* Slightly tighter list when needed (optional) */
+.cv-list-tight .cv-bullets li {
+  margin: 5px 0;
+}
+
+

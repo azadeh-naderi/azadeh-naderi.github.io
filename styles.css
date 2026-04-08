@@ -1,12 +1,12 @@
 :root{
-  --bg: #eef2f7;
+  --bg: #f5f7fa;
   --panel: #ffffff;
   --panel2: #f8fafc;
   --text: #0f172a;
-  --muted: #64748b;
-  --line: #d1d9e6;
+  --muted: #475569;
+  --line: #cbd5e1;
   --accent: #2563eb;
-  --shadow: 0 6px 18px rgba(0,0,0,.08);
+  --shadow: 0 10px 30px rgba(2,6,23,.06);
   --radius: 18px;
 }
 
@@ -73,13 +73,13 @@ body{
 .nav a:hover{
   color: var(--text);
   border-color: var(--line);
-  background: #e9eef5;
+  background: transparent;
 }
 
 .nav a.active{
   color: var(--text);
   border-color: var(--line);
-  background: #e3e9f2;
+  background: transparent;
 }
 
 .hero{
@@ -145,7 +145,7 @@ body{
 }
 
 .btn:hover{
-  background: #f1f5f9;
+  background: #f8fafc;
   transform: translateY(-1px);
 }
 
@@ -180,7 +180,7 @@ body{
 
 .social-link:hover{
   color: var(--text);
-  background: #f1f5f9;
+  background: #f8fafc;
 }
 
 .social-link svg{
@@ -256,7 +256,7 @@ body{
 }
 
 .update + .update{
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid #cbd5e1;
 }
 
 .dot{
@@ -377,7 +377,7 @@ body{
   gap: 6px;
   padding: 12px;
   border-radius: 14px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
   background: #ffffff;
 }
 
@@ -449,7 +449,7 @@ body{
   flex: 0 0 auto;
   font-size: 13px;
   color: var(--muted);
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
   background: #ffffff;
   border-radius: 999px;
   padding: 6px 10px;
@@ -524,7 +524,7 @@ a:hover{
 
 .cv-item {
   padding: 14px 0;
-  border-bottom: 1px solid #e2e8f0; /* works on dark */
+  border-bottom: 1px solid #cbd5e1; /* works on dark */
 }
 
 .cv-item:last-child {
@@ -561,24 +561,16 @@ a:hover{
 
 
 
-/* === Improved readability sections === */
-.section {
-  margin-top: 32px;
+/* Improve readability */
+.card p,
+.pub-venue,
+.course-terms,
+.stat-label {
+  color: #475569;
 }
 
-.section-box {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
-  padding: 22px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-/* Hero text panel */
-.hero-right {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
-  padding: 22px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+/* Stronger section titles */
+.section h2,
+.page-title {
+  color: #0f172a;
 }

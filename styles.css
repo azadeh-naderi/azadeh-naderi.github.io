@@ -286,7 +286,7 @@ body{
   padding: 12px 14px;
   border-radius: 14px;
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.04);
+  background: #ffffff;
 }
 
 .course-title{
@@ -324,7 +324,7 @@ body{
 
 .stat{
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.05);
+  background: #ffffff;
   border-radius: var(--radius);
   padding: 12px 14px;
 }
@@ -342,7 +342,7 @@ body{
 
 .teach-block{
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.04);
+  background: #ffffff;
   border-radius: var(--radius);
   padding: 14px;
   margin: 14px 0;
@@ -378,7 +378,7 @@ body{
   padding: 12px;
   border-radius: 14px;
   border: 1px solid rgba(255,255,255,.12);
-  background: rgba(255,255,255,.03);
+  background: #ffffff;
 }
 
 @media (min-width: 860px){
@@ -426,7 +426,7 @@ body{
 
 .pub-card{
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.04);
+  background: #ffffff;
   border-radius: var(--radius);
   padding: 14px;
 }
@@ -450,7 +450,7 @@ body{
   font-size: 13px;
   color: var(--muted);
   border: 1px solid rgba(255,255,255,.14);
-  background: rgba(255,255,255,.03);
+  background: #ffffff;
   border-radius: 999px;
   padding: 6px 10px;
   margin-top: 1px;

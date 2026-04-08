@@ -1,7 +1,7 @@
 :root{
   --bg: #f5f7fa;
   --panel: #ffffff;
-  --panel2: #ffffff;
+  --panel2: #f8fafc;
   --text: #0f172a;
   --muted: #64748b;
   --line: #94a3b8;
@@ -73,13 +73,13 @@ body{
 .nav a:hover{
   color: var(--text);
   border-color: var(--line);
-  background: rgba(255,255,255,.05);
+  background: rgba(255,255,255,.65);
 }
 
 .nav a.active{
   color: var(--text);
   border-color: var(--line);
-  background: rgba(255,255,255,.06);
+  background: rgba(255,255,255,.75);
 }
 
 .hero{
@@ -102,7 +102,7 @@ body{
   border-radius: var(--radius);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
-  background: rgba(255,255,255,.04);
+  background: #ffffff;
 }
 
 .hero-right h1{
@@ -138,14 +138,14 @@ body{
   padding: 10px 12px;
   border-radius: 12px;
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.06);
+  background: #ffffff;
   color: var(--text);
   text-decoration: none;
   transition: .15s ease;
 }
 
 .btn:hover{
-  background: rgba(255,255,255,.10);
+  background: #f8fafc;
   transform: translateY(-1px);
 }
 
@@ -172,7 +172,7 @@ body{
   padding: 8px 10px;
   border-radius: 12px;
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.04);
+  background: #ffffff;
   color: var(--muted);
   text-decoration:none;
   transition: .15s ease;
@@ -180,7 +180,7 @@ body{
 
 .social-link:hover{
   color: var(--text);
-  background: rgba(255,255,255,.08);
+  background: #f8fafc;
 }
 
 .social-link svg{

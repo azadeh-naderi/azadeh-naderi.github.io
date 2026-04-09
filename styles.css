@@ -629,3 +629,11 @@ nav ul {
     font-size: 13px;
   }
 }
+
+@media (max-width: 768px) {
+  .avatar {
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+  }
+}

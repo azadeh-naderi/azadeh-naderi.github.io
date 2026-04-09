@@ -574,3 +574,9 @@ a:hover{
 .page-title {
   color: #0f172a;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

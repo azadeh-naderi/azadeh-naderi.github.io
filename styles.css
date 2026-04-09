@@ -615,3 +615,17 @@ nav ul {
     align-items: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 8px 10px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+}
